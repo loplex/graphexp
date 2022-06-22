@@ -2,12 +2,12 @@
 // configuration for the graph database access
 
 // if host is set, will override default localhost server option
-//const host = "some_gremlin_server"
-const host = false;
+const host = "localhost";
+const port = "18182";
 
 // For implementations like Neptune where only single commands are allowed per request
 // set to true
-const SINGLE_COMMANDS_AND_NO_VARS = false;
+const SINGLE_COMMANDS_AND_NO_VARS = true;
 // For implementations like Neptune where communication only over https is allowed
 // set to true
 const REST_USE_HTTPS = false;

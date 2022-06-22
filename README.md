@@ -9,6 +9,13 @@ Graphexp is under the Apache 2.0 license.
 
  Versions of Graphexp with the same backend but a nicer UI (using bootstrap) are available here [github.com/erandal/graphexp](https://github.com/erandal/graphexp) and here [github.com/ddmx/graphexp](https://github.com/ddmx/graphexp).
  
+## About this fork
+It is made to work with Amazon Neptune.
+
+1. Make tunnel to SSL-secured Neptune instance using `stunnel`. Configuration template:
+   [`stunnel.conf`](https://github.com/loplex/graphexp/blob/neptune/stunnel.conf)
+2. If you have customized port in `stunnel.conf`, edit `scripts/graphConf.js` accordingly
+3. Open `graphexp.html` in your browser
 
 ## Configuration
 
